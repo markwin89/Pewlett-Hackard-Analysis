@@ -23,7 +23,7 @@ Linking tables to create a table with the list of employees that are retiring so
 ### Count of Retirement
 - The total count for retirement within the 3 year parameter (1952-1955) is 53977.  
 - Department retirement count
-![Retiring Dept Count](https://user-images.githubusercontent.com/101272613/166967692-be162d15-29f1-4320-9c91-02f571af8ebc.png)
+- ![Retiring Dept Count](https://user-images.githubusercontent.com/101272613/166967692-be162d15-29f1-4320-9c91-02f571af8ebc.png)
   - We should focus on replacing roles in Development, Production, and Sales.  
 
 ### Mentorship
