@@ -76,7 +76,7 @@ ORDER BY e.emp_no;
  
 SELECT * FROM mentorship_eligibilty
 
---Creating table for names that are retiring and current
+--Creating table for names that are retiring within 3 years.
 SELECT DISTINCT ON (e.emp_no)
 	e.emp_no,
 	e.first_name,
@@ -107,4 +107,31 @@ ORDER BY rc.count DESC;
 
 SELECT * FROM retiring_count
 
+--Creating table and count for departments that are retiring in the 3 years. 
 
+SELECT DISTINCT ON (rc.emp_no)
+	rc.emp_no,
+	rc.first_name,
+	rc.last_name,
+	de.dept_no,
+	d.dept_name
+INTO retiring_dept
+FROM retiring_current as rc
+INNER JOIN dept_emp as de
+ON (de.emp_no=rc.emp_no)
+INNER JOIN departments as d
+ON (de.dept_no=d.dept_no)
+WHERE (rc.birth_date BETWEEN '1952-01-01' AND '1955-01-01')
+AND de.to_date='9999-01-01'
+ORDER BY rc.emp_no;
+
+SELECT * FROM retiring_dept
+
+SELECT COUNT(rd.dept_name),
+	rd.dept_name
+INTO retiring_dept_count
+FROM retiring_dept as rd
+GROUP BY rd.dept_name
+ORDER BY rd.count DESC;
+
+SELECT * FROM retiring_dept_count
