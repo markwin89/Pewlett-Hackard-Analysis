@@ -8,7 +8,7 @@ Linking tables to create a table with the list of employees that are retiring so
 ---
 ## Results
 ### Retiring Titles
-- A large amount of Senoir Engineers and Senior Staff is retiring within the next 3 years.  
+- A large amount of Engineers and Senior Staff is retiring within the next 3 years.  
   - The next titles are engineers, and staff.    
 ![Retiring Title Count](https://user-images.githubusercontent.com/101272613/166969953-448ad8c5-4ece-4dca-88c9-555c3bacbf61.png)
 - To review the full list of employee's name and number, refer CSV file "retiring_current".
@@ -27,12 +27,13 @@ Linking tables to create a table with the list of employees that are retiring so
   - We should focus on replacing roles in Development, Production, and Sales.  
 
 ### Mentorship
-- There is a huge gap of those who are retiring and the current employees that are eligible to be in the mentorship.  
+- There is a huge gap of those who are retiring and the current employees that are eligible to be in the mentorship.
   - Retiring total: 53977
   - Mentorship total: 1549  
   - ![Retiring Current Count](https://user-images.githubusercontent.com/101272613/166967703-96ac97fd-1cf8-4ccd-8071-f9ce987f8054.png)
-    - I suggest to broaden the years parameter for Mentorship eligibility or hiring younger candidates. 
-    - While running the tables, there are no employees that were born after 1965. 
+    - I suggest to broaden the years parameter for Mentorship eligibility especially for Engineers and Senior Staff.  
+    - Both roles makeup close to 70% of the retirement list. 
+    - While running the tables, there are no employees that were born after 1965 so hiring younger candidates would greatly close the gap of the next retirement wave.  
 
 
 
