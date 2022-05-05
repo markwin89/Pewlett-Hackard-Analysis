@@ -32,7 +32,7 @@ Linking tables to create a table with the list of employees that are retiring so
   - Mentorship total: 1549  
   - ![Retiring Current Count](https://user-images.githubusercontent.com/101272613/166967703-96ac97fd-1cf8-4ccd-8071-f9ce987f8054.png)
     - I suggest to broaden the years parameter for Mentorship eligibility especially for Engineers and Senior Staff.  
-    - Both roles makeup close to 70% of the retirement list. 
+      - Both roles makeup close to 70% of the retirement list. 
     - While running the tables, there are no employees that were born after 1965 so hiring younger candidates would greatly close the gap of the next retirement wave.  
 
 
